@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-PT"> 
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Feira Medieval de Vandoma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="imagens/logo4.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">PÁGINA INICIAL</a></li>
+                  <li><a href="historia.html">HISTÓRIA</a></li>
+                  <li><a href="atividades.html">ATIVIDADES</a></li>
+                  <li><a href="inscricoes.html">INSCRIÇÕES</a></li>
+                  <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                  <li><a href="galeria.html">GALERIA</a></li>
+                  <li><a href="contactos.html">CONTACTE-NOS</a></li>
+
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>            
+    </section>
+    <section class="inscricoes">
+        <h1>Inscrições</h1>
+        <h2>Antes de se inscrever, leia o nosso regulamento!</h2>
+        <a href="regulamento.pdf" class="hero-btn red-btn">Regulamento Feira Medieval de Vandoma</a>
+        <p> <br> Se gostaria de ter uma barraquinha na nossa feira preencha este inquérito e envie para o email <b>espacoamigo@sapo.pt</b>:
+            <a href="forms/formm.pdf" class="hero-btn red-btn"> Formulário para mercadores/artesãos</a>
+                    <p>Se gostaria de participar na nossa feira enquanto figurante/animador preencha este inquérito e envie para o email <b>espacoamigo@sapo.pt</b>:
+                        <a href="forms/formf.pdf" class="hero-btn red-btn"> Formulário para figurantes</a>
+             </section>
+
+
+    <section class="footer">
+        <img src="imagens/footer.png">
+    </section>
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
